@@ -1,40 +1,69 @@
-#menu {
-    margin: 0px 0px 15px 65%;
-	padding: 10px;
-	list-style-type: none;
-	position: fixed;
+.Menu{
+	position: absolute !important;
+	margin-top: 1%;
+	right: 0;
 }
-
-#menu a, #menu a:visited {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
-	line-height: 12px;
-	color: #fff;
-	background-color: #a59268;
+.Menu ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	
+}
+.Menu li{
+	background:#212121;
+	display: inline-block;
+	
+}
+.Menu li a{
+	background: #212121;
 	display: block;
-	margin-right: 4px;
-	float: left;
+	min-width: 140px;
+	min-height: 50px;
 	text-align: center;
-	padding: 10px 20px;
+	line-height: 50px;
 	text-decoration: none;
-	border-radius: 4px;
-	font-weight:700;
+	color: #fff;
+	
+}
+.Menu li:hover a{
+	background: #19c589;
+
+}
+.Menu li:hover ul a{
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+.Menu li:hover ul a:hover{
+	background: #2396bd;
+	color: #fff;
+}
+.Menu li ul {
+	display: none;
+}
+.Menu ul li a:hover + .sublista, .sublista:hover{
+	display: block;
+}
+.Menu li ul li {
+	display: block;
+	float: none;
 }
 
-#menu a:hover {
-	box-shadow: 2px 2px #80808075;
-	color: #000;
-	background-color: #fff;
-    transition: background 400ms;
+/*estilo responsive*/
+@media screen and (max-width:735px ){
+	.Menu ul{
+		position: static;
+		display: none;
+	}
+	.Menu li{
+		margin-bottom: 1px;
+	}
+	.Menu ul li, li a{
+		width: 100%;
+	}
+	.Menu .mostrar-menu{
+		display: block;
+	}
 }
-
-#menu .liMenu img{
-	width: 15px;
-	height: 15px;
-}
-/*
-	<a href="#" id="toTop" style="display: inline;">
-			<span id="toTopHover" style="opacity: 0;"></span>
-			To Top
-		</a>
-*/
