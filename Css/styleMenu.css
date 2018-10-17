@@ -8,15 +8,17 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
+	right: 8px;
 	
 }
 .Menu li{
-	background:#212121;
+	background:#055075;
 	display: inline-block;
+	border-radius: 10px;
 	
 }
 .Menu li a{
-	background: #212121;
+	background: #055075;
 	display: block;
 	min-width: 140px;
 	min-height: 50px;
@@ -24,10 +26,12 @@
 	line-height: 50px;
 	text-decoration: none;
 	color: #fff;
+	border-radius: 10px;
 	
 }
 .Menu li:hover a{
-	background: #19c589;
+	background: #3ea6cd;
+	transition: background 1s;
 
 }
 .Menu li:hover ul a{
@@ -37,8 +41,9 @@
 	line-height: 40px;
 }
 .Menu li:hover ul a:hover{
-	background: #2396bd;
+	background: #3ea6cd;
 	color: #fff;
+	transition: background 1s;
 }
 .Menu li ul {
 	display: none;
