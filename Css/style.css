@@ -20,6 +20,7 @@
 
 .container{
 	width: 100%;
+	margin: 0 auto;
 }
 .footerInfo{
 	width: 35%;
@@ -28,6 +29,22 @@
 	width: 35%;
 	float: left;
 }
+
+.banner{
+margin 0 auto;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+.img-1{
+
+	background-image: url(../img/banner.jpg);
+	height: 600px;
+}
+
 .Encabezado{
 	text-align: center;
 	width: 0;
@@ -53,9 +70,10 @@
 	float: left;
     margin: 10px;
 }
+
 .ContentLogo img{
-	width: 50%;
-    height: 50px;
+	width:  140px;
+    height: 70px;
 }
 .ContenedorDatos{
 	margin-top: 3%;
