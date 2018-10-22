@@ -15,6 +15,7 @@
 	background:#055075;
 	display: inline-block;
 	border-radius: 10px;
+	position: relative;
 	
 }
 .Menu li a{
@@ -38,7 +39,6 @@
 	background: #f3f3f3;
 	color: #2f3036;
 	height: 40px;
-	line-height: 40px;
 }
 .Menu li:hover ul a:hover{
 	background: #3ea6cd;
@@ -47,14 +47,22 @@
 }
 .Menu li ul {
 	display: none;
+	position: absolute;
+	min-width: 10px;
 }
 .Menu ul li a:hover + .sublista, .sublista:hover{
 	display: block;
+}
+
+.Menu li:hover > ul{
+	display: block;
+	float: none;
 }
 .Menu li ul li {
 	display: block;
 	float: none;
 }
+
 
 /*estilo responsive*/
 @media screen and (max-width:735px ){
