@@ -39,12 +39,14 @@
 	width: 30%;
 	height: 50%;
 	float: right;
+	text-align: center;
+    color: #fff;
 }
 .footerRedes h6{
 }
 
 .banner{
-margin 0 auto;
+margin: auto;
 background-position: 50% 50%;
 background-repeat: no-repeat;
 background-size: cover;
@@ -102,6 +104,22 @@ background-attachment: fixed;
 .contenedorIMG img{
 	width: 100%;
 }
+.IframIncluide{
+	width: 100%;
+	height: auto;
+	border: none;
+}
+/*Estilos carrucel Inicio*/
+
+.carousel{
+	width: 100%;
+}
+.carousel-item.active frame, .carousel-item.active img{
+	width: 100%;
+	height: 50%;
+}
+
+/*Estilos carrucel Fin*/
 /*--------------------------------------------------------------
 16.0 - Totop
 --------------------------------------------------------------*/

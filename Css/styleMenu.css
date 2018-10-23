@@ -50,6 +50,12 @@
 	display: none;
 	position: absolute;
 	min-width: 10px;
+	width: 150px;
+    border-radius: 4px;
+    padding: 5px;
+    left: 0px;
+    margin-top: 3px;
+    background: rgba(5,80,117,0.7);
 }
 .Menu ul li a:hover + .sublista, .sublista:hover{
 	display: block;
@@ -62,6 +68,7 @@
 .Menu li ul li {
 	display: block;
 	float: none;
+	margin-top:4px;
 }
 
 
