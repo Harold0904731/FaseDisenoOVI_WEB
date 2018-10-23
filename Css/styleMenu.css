@@ -39,6 +39,7 @@
 	background: #f3f3f3;
 	color: #2f3036;
 	height: 40px;
+	line-height: 40px;
 }
 .Menu li:hover ul a:hover{
 	background: #3ea6cd;
@@ -62,6 +63,7 @@
 	display: block;
 	float: none;
 }
+
 
 
 /*estilo responsive*/
