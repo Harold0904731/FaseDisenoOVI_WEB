@@ -59,12 +59,33 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+.TexBanner h1{
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.TitleBanner h1{
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    padding-top: 250px;
+}
+
 
 .img-1{
 
 	background-image: url(../img/banner.jpg);
 	height: 600px;
 }
+
+.img-2{
+
+	background-image: url(../img/banner.jpg);
+	height: 300px;
+}
+
 
 .Encabezado{
 	text-align: center;
