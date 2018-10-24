@@ -59,6 +59,13 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+.TexconInf
+{
+  float:left;
+  margin: 80px;
+  text-align: center;
+}
+
 .TexBanner h1{
     font-size: 100px;
     text-align: center;
@@ -112,7 +119,10 @@ background-attachment: fixed;
 	float: left;
     margin: 10px;
 }
-
+.ContenedorIco img{
+	width: 150px; 
+	height:150px;
+}
 .ContentLogo img{
 	width:  140px;
     height: 50px;
