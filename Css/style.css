@@ -42,8 +42,14 @@
 	text-align: center;
     color: #fff;
 }
-.footerRedes h6{
+.Contador
+{
+    width: 20%;
+	height: 50%;
+	float: right;
+    color: #fff;
 }
+
 
 .banner{
 margin: auto;
