@@ -120,6 +120,80 @@ background-attachment: fixed;
 }
 
 /*Estilos carrucel Fin*/
+
+/*Inicio de estilos para los radioButton*/
+fieldset {
+    padding: 10px !important;
+	border: 1px solid #000  !important;
+	margin: 10px !important;
+}
+fieldset div:first-of-type {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 5px;
+}
+  
+fieldset label {
+	margin-right: 15px;
+	line-height: 32px;
+}
+fieldset input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #999;
+	transition: 0.2s all linear;
+	outline: none;
+	margin-right: 5px;
+	position: relative;
+	top: 4px;
+}
+  
+fieldset input:checked {
+	border: 6px solid black;
+}
+  
+fieldset button, fieldset legend {
+	color: #fff !important;
+	background-color: black !important;
+	padding: 5px 10px !important;
+	border-radius: 4px !important;
+	border: 0 !important;
+	font-size: 14px !important;
+}
+  
+fieldset button:hover, fieldset button:focus {
+	color: #999;
+}
+  
+fieldset button:active {
+	background-color: white;
+	color: black;
+	outline: 1px solid black;
+}
+/*Fin de estilos para los radioButton*/
+
+.respuestaCorrecta{
+	border: 2px solid #1CB809;
+    background: rgba(42, 214, 21, 0.41);
+    border-radius: 4px;
+    text-align: center;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.respuestaIncorrecta{
+	border: 2px solid #e00927;
+    background: rgba(224, 9, 39, 0.38);
+    border-radius: 4px;
+    text-align: center;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 700;
+}
 /*--------------------------------------------------------------
 16.0 - Totop
 --------------------------------------------------------------*/
