@@ -10,4 +10,7 @@ $(function(){
            $(".Respuesta"+ $(this).attr("id")).addClass("respuestaIncorrecta");
        }
     });
+    //se ajustara el tamaño del frame de twitter
+    console.log($(".ContenedorTwitter").children().children().children().children("body"));
+    ///$(".timeline-Widget").css({"height":"20px","overflow":"auto"});
 });

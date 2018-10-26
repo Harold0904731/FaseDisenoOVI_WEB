@@ -42,15 +42,20 @@
 	text-align: center;
     color: #fff;
 }
-.Contador
-{
+.Contador{
     width: 20%;
 	height: 50%;
-	float: right;
-    color: #fff;
+	float: left;
+	color: #000;
+	text-align: center;
+
 }
-
-
+.Contador h6{
+	margin-bottom:0px !important; 
+}
+.ContenedorTwitter{
+	margin-left: 2% !important;
+}
 .banner{
 margin: auto;
 background-position: 50% 50%;
@@ -145,6 +150,9 @@ background-attachment: fixed;
 	width: 100%;
 	height: auto;
 	border: none;
+}
+.contenedorVideosLecturas{
+	margin-top: 2%;
 }
 /*Estilos carrucel Inicio*/
 
