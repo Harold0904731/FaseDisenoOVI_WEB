@@ -126,7 +126,7 @@
      * Public Util Api
      * --------------------------------------------------------------------------
      */
-
+     
 
     var Util = {
       TRANSITION_END: 'bsTransitionEnd',

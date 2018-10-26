@@ -70,6 +70,10 @@ background-attachment: fixed;
   margin: 80px;
   text-align: center;
 }
+.TexconInf:hover{
+	-webkit-transition: 1.5s;
+	-webkit-transform: rotate(360deg);	
+}
 
 .TexBanner h1{
     font-size: 100px;
