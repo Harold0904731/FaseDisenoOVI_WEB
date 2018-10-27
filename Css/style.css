@@ -92,13 +92,13 @@ background-attachment: fixed;
 
 .img-1{
 
-	background-image: url(../Img/banner.jpg);
+	background-image: url(/Img/banner.jpg);
 	height: 600px;
 }
 
 .img-2{
 
-	background-image: url(../Img/banner.jpg);
+	background-image: url(/Img/banner.jpg);
 	height: 300px;
 }
 
