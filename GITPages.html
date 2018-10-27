@@ -6,12 +6,18 @@
             <script src="Js/bootstrap.js" type="text/javascript"></script>
             <script src="Js/bootstrap.min.js" type="text/javascript"></script>
             <script src="Js/FuncionesOVI.js" type="text/javascript"></script>
+            <script src="Js/bootstrap.bundle.js" type="text/javascript"></script>
+            <script> 
+            $(function (){
+            $("[data-toggle='tooltip']").tooltip();
+             } );
+            </script>
             <link href="Css/style.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/styleMenu.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/bootstrap.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/font-awesome.css" rel="stylesheet" type="text/css"></link>
-            <title> Inicio</title>
+            <title>Lecturas</title>
             <link href="img/logo.ico" rel="icon"></link>
         </meta>
     </head>
@@ -126,7 +132,7 @@
                     </div>
                     <div class="col-lg-12 row">
                         <div class="col-lg-3 contenedorIMG">
-                            <img alt="Responsive image" data-target="#ModalGitPages" data-toggle="modal" src="Img/ColorGitpages.png">
+                            <img alt="Responsive image" data-target="#ModalGitPages" src="Img/ColorGitpages.png" data-toggle="tooltip" data-placement="Top" title="GitHub.(2018). GitHub Logos y Uso. Recuperado de: https://github.com/logos">
                             </img>
                         </div>
                         <div class="col-lg-9">
@@ -218,12 +224,12 @@
                 </button>
             </div>
             <div class="modal-body">
-            	 <p>
+            	 <p data-toggle="tooltip" data-placement="right" title="MDN Web docs. (2017). ¿Cómo se utiliza Github pages?. Recuperado de: https://developer.mozilla.org/es/docs/Learn/Using_Github_pages">
                               GitHub Pages es un servicio de alojamiento de sitios estáticos diseñado para alojar sus páginas personales, de organización o de proyecto directamente desde un repositorio de GitHub.
 			                  Puede crear y publicar sitios de GitHub Pages en línea utilizando el Selector de temas de Jekyll . O si prefiere trabajar localmente, puede usar GitHub Desktop o la línea de comandos .
 			                  GitHub Pages es un servicio de alojamiento de sitios estáticos y no es compatible con el código del servidor, como PHP, Ruby o Python.
 			                  Para obtener más información sobre los diferentes tipos de sitios de GitHub Pages, consulte "Páginas de usuarios, organizaciones y proyectos ".
-                                </p>
+                             </p>
                                 <p>
                                     Los sitios de GitHub Pages están sujetos a los siguientes límites de uso:
                                     <ul>
@@ -241,7 +247,7 @@
                                         </li>
                                     </ul>
                                 </p>
-                                <img alt="Responsive image" class="img-fluid" src="Img/GitHubPages.png">
+                                <img alt="Responsive image" class="img-fluid" src="Img/GitHubPages.png" data-toggle="tooltip" data-placement="Top" title="Bustos, F. (2017). Github pages. Recuperado de: https://medium.com/@bustosfredy/apuntar-dominio-a-github-pages-d1a678c2fd90" >
                                 </img>
             </div>
             <div class="modal-footer">

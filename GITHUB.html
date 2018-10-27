@@ -6,12 +6,18 @@
             <script src="Js/bootstrap.js" type="text/javascript"></script>
             <script src="Js/bootstrap.min.js" type="text/javascript"></script>
             <script src="Js/FuncionesOVI.js" type="text/javascript"></script>
+            <script src="Js/bootstrap.bundle.js" type="text/javascript"></script>
+            <script> 
+            $(function (){
+            $("[data-toggle='tooltip']").tooltip();
+             } );
+            </script>
             <link href="Css/style.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/styleMenu.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/bootstrap.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/font-awesome.css" rel="stylesheet" type="text/css"></link>
-            <title> Inicio</title>
+            <title>Lecturas</title>
             <link href="img/logo.ico" rel="icon"></link>
         </meta>
     </head>
@@ -126,7 +132,7 @@
                     </div>
                     <div class="col-lg-12 row">
                         <div class="col-lg-3 contenedorIMG">
-                            <img alt="Responsive image" data-target="#ModalGitHub" data-toggle="modal" src="Img/ColorGitHub.png">
+                            <img alt="Responsive image" data-target="#ModalGitHub" src="Img/ColorGitHub.png" data-toggle="tooltip" data-placement="Top" title="GitHub.(2018). GitHub Logos y Uso. Recuperado de: https://github.com/logos">
                             </img>
                         </div>
                         <div class="col-lg-9">
@@ -222,10 +228,10 @@
             	                <p>
                                     El desarrollo de software se vuelve más fácil cuando tiene acceso a las herramientas que necesita para hacer su mejor trabajo. Con flujos de trabajo simples y coherentes, puede reducir la fatiga del cambio de contexto, agilizar los procesos de autenticación y enfocarse en los problemas que realmente importan. Para ayudarlo a obtener una experiencia de desarrollador perfecta, continuamos nuestra asociación con Microsoft para llevar Azure Pipelines a GitHub. Este nuevo servicio CI / CD le permite construir, probar e implementar continuamente en cualquier plataforma, y ​​es gratis para repositorios de código abierto.
                                 </p>
-                                 <p>
+                                 <p data-toggle="tooltip" data-placement="right" title="Wikipedia.(2018). GitHub. Recuperado de: https://es.wikipedia.org/wiki/GitHubBibliografía">
                                     Automáticamente active su canalización con cambios en su repositorio cuando conecte Azure Pipelines con GitHub. Obtenga informes de estado completos, código anotado e información detallada, todo dentro de la interfaz de GitHub.
                                 </p>
-                                <img alt="Responsive image" class="img-fluid" src="Img/GitHubInfo1.png">
+                                <img alt="Responsive image" class="img-fluid" src="Img/GitHubInfo1.png" data-toggle="tooltip" data-placement="Top" title="Blog GitHub.(2018). GitHub. Recuperado de:https://blog.github.com/">
                                 </img>
             </div>
             <div class="modal-footer">

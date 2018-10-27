@@ -6,12 +6,18 @@
             <script src="Js/bootstrap.js" type="text/javascript"></script>
             <script src="Js/bootstrap.min.js" type="text/javascript"></script>
             <script src="Js/FuncionesOVI.js" type="text/javascript"></script>
+            <script src="Js/bootstrap.bundle.js" type="text/javascript"></script>
+            <script> 
+            $(function (){
+            $("[data-toggle='tooltip']").tooltip();
+             } );
+            </script>
             <link href="Css/style.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/styleMenu.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/bootstrap.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/font-awesome.css" rel="stylesheet" type="text/css"></link>
-            <title> Inicio</title>
+            <title>Lecturas</title>
             <link href="img/logo.ico" rel="icon"></link>
         </meta>
     </head>
@@ -126,7 +132,7 @@
                     </div>
                     <div class="col-lg-12 row">
                         <div class="col-lg-3 contenedorIMG">
-                            <img alt="Responsive image" data-target="#ModalCSS" data-toggle="modal" src="Img/ColorCSS3Logo.png">
+                            <img alt="Responsive image" data-target="#ModalCSS" src="Img/ColorCSS3Logo.png" data-toggle="tooltip" data-placement="Top" title="Kisspng.(2017).Logotipo CSS3. Recuperado de:https://www.kisspng.com/">
                             </img>
                         </div>
                         <div class="col-lg-9">
@@ -221,10 +227,10 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p>
+                <p data-toggle="tooltip" data-placement="right" title="MDN Web docs. (2017). Cómo funciona CSS. Recuperado de: https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Como_funciona_CSS">
                     El Nivel 2 de CSS necesitó 9 años, desde Agosto de 2002 hasta Junio de 2011, para alcanzar el estado de Recomendación. Esto fué debido al hecho de que algunas características secundarias fueron retiradas de las especificaciones globales, con el fin de acelerar la normalización de las características no problemáticas, el Grupo de Trabajo CSS de la W3C, en una decisión referida como la doctrina Beijing  dividió CSS en componentes más pequeños llamados módulos cada uno de estos módulos es ahora una parte independiente del lenguaje y se dirije a la estandarización a su propio ritmo mientras algunos módulos son ya recomendados de la W3C, otros todavía son borradores iniciales tambíen se añaden nuevos módulos cuando se identifican nuevas necesidades.
                 </p>
-                <img alt="Responsive image" class="img-fluid" src="Img/CSSInfo1.png">
+                <img alt="Responsive image" class="img-fluid" src="Img/CSSInfo1.png" data-toggle="tooltip" data-placement="Top" title="MDN Web.(2017).CSS3. Recuperado de: https://developer.mozilla.org/es/docs/Web/CSS/CSS3">
                 </img>
             </div>
             <div class="modal-footer">

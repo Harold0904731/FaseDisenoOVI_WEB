@@ -6,12 +6,18 @@
             <script src="Js/bootstrap.js" type="text/javascript"></script>
             <script src="Js/bootstrap.min.js" type="text/javascript"></script>
             <script src="Js/FuncionesOVI.js" type="text/javascript"></script>
+            <script src="Js/bootstrap.bundle.js" type="text/javascript"></script>
+            <script> 
+            $(function (){
+            $("[data-toggle='tooltip']").tooltip();
+             } );
+            </script>
             <link href="Css/style.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/styleMenu.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/bootstrap.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
             <link href="Css/font-awesome.css" rel="stylesheet" type="text/css"></link>
-            <title> Inicio</title>
+            <title>Lecturas</title>
             <link href="img/logo.ico" rel="icon"></link>
         </meta>
     </head>
@@ -126,7 +132,7 @@
                     </div>
                     <div class="col-lg-12 row">
                         <div class="col-lg-3 contenedorIMG">
-                            <img alt="Responsive image" data-target="#ModalGit" src="Img/ColorGit.png" title="Git.(2018). Logotipos. Recuperado de: https://git-scm.com/downloads/logos" data-toggle="tooltip">
+                            <img alt="Responsive image" data-target="#ModalGit" src="Img/ColorGit.png" data-toggle="tooltip" data-placement="Top" title="Git.(2018). Logotipos. Recuperado de: https://git-scm.com/downloads/logos">
                             </img>
                         </div>
                         <div class="col-lg-9">
@@ -230,17 +236,17 @@
                                     </p>
                                 </br>
                                 <center>
-                                    <img alt="Responsive image" class="img-fluid" src="Img/GitInfo1.png"/>
+                                    <img alt="Responsive image" class="img-fluid" src="Img/GitInfo1.png" data-toggle="tooltip" data-placement="Top" title="Git.(2018). Fundamentos Git. Recuperado de: https://git-scm.com/book/es/v1/Empezando-Fundamentos-de-Git"/>
                                 </center>
                                 <br>
-                                <p>
+                                <p data-toggle="tooltip" data-placement="right" title="Wikipedia.(2018).Git. Recuperado de: https://es.wikipedia.org/wiki/Git">
                                     Otros sistemas tienden a almacenar los datos como cambios de cada archivo respecto a una versión base.
                                                          Git no modela ni almacena sus datos de este modo. En cambio, Git modela sus datos más como un conjunto de instantáneas de un mini sistema de archivos. Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en Git, él básicamente hace una foto del aspecto de todos tus archivos en ese momento, y guarda una referencia a esa instantánea. Para ser eficiente, si los archivos no se han modificado, Git no almacena el archivo de nuevo, sólo un enlace al archivo anterior idéntico que ya tiene almacenado.
                                 </p>
                                 <p>Inicialmente se mostrara en el index, una parte básica del texto con un video informativo, si se quiere ver la información completa esta se mostrara en una modal, esto ayudando a economizar espacio en las secciones principales de la pagina web.</p>
                                 </br>
                                 <center>
-                                    <img alt="Responsive image" class="img-fluid" src="Img/GitInfo2.png"/>
+                                    <img alt="Responsive image" class="img-fluid" src="Img/GitInfo2.png" data-toggle="tooltip" data-placement="Top" title="Git.(2018). Fundamentos Git. Recuperado de: https://git-scm.com/book/es/v1/Empezando-Fundamentos-de-Git"/>
                                 </center>
             </div>
             <div class="modal-footer">
